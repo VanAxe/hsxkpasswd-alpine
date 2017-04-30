@@ -1,4 +1,4 @@
-# docker-hsxkpasswd
+# hsxkpasswd-alpine
 
 `hsxkpasswd` is a password generator. It is hereby shoved inside a Docker container.
 
@@ -15,8 +15,8 @@ $ docker build .
 Or simply pull it from DockerHub.
 
 ```bash
-$ docker pull vanaxe/hsxkpasswd
-$ docker run -it --rm hsxkpasswd
+$ docker pull vanaxe/hsxkpasswd-alpine
+$ docker run -it --rm hsxkpasswd-alpine
 ```
 
 ## Contributing
