@@ -1,4 +1,5 @@
-FROM alpine
+FROM alpine:3.5
+MAINTAINER 'alexis@amonoid.io'
 
 RUN set +xev
 
@@ -8,5 +9,5 @@ RUN apk add --virtual build-deps make curl bash patch build-base perl-dev --upda
     cpan Crypt::HSXKPasswd;\
     apk del build-deps
 
-ENTRYPOINT hsxkpasswd
+ENTRYPOINT [ "hsxkpasswd" ]
 CMD [ "-p", "XKCD", "12" ]
