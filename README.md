@@ -6,8 +6,10 @@
 
 To build it locally.
 
-```bash
-$ docker build .
+```shell
+$ docker build -t vanaxe/hsxkpasswd-alpine:local .
+$ # And to run it
+$ docker run -it --rm vanaxe/hsxkpasswd-alpine:local
 ```
 
 ## Usage
@@ -16,7 +18,7 @@ Or simply pull it from DockerHub.
 
 ```bash
 $ docker pull vanaxe/hsxkpasswd-alpine
-$ docker run -it --rm hsxkpasswd-alpine
+$ docker run -it --rm vanaxe/hsxkpasswd-alpine
 ```
 
 ## Contributing
