@@ -1,7 +1,7 @@
 FROM alpine:3.5
 MAINTAINER 'alexis@amonoid.io'
 
-RUN set +xev
+RUN set -xev
 
 RUN apk add --virtual build-deps make curl bash patch build-base perl-dev --update;\
     apk add perl;\
