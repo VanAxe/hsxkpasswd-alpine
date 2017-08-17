@@ -1,6 +1,6 @@
 # hsxkpasswd-alpine
 
-`hsxkpasswd` is a password generator. It is hereby shoved inside a Docker container.
+`hsxkpasswd` is a very nice [Perl password generator](https://www.bartbusschots.ie/s/publications/software/xkpasswd/). It is hereby shoved inside a Docker container.
 
 ## Installation
 
