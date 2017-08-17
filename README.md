@@ -7,9 +7,9 @@
 To build it locally.
 
 ```shell
-$ docker build -t vanaxe/hsxkpasswd-alpine:local .
+$ docker build -t avanier/hsxkpasswd-alpine:local .
 $ # And to run it
-$ docker run -it --rm vanaxe/hsxkpasswd-alpine:local
+$ docker run -it --rm avanier/hsxkpasswd-alpine:local
 ```
 
 ## Usage
