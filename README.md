@@ -17,8 +17,8 @@ $ docker run -it --rm vanaxe/hsxkpasswd-alpine:local
 Or simply pull it from DockerHub.
 
 ```bash
-$ docker pull vanaxe/hsxkpasswd-alpine
-$ docker run -it --rm vanaxe/hsxkpasswd-alpine
+$ docker pull avanier/hsxkpasswd-alpine
+$ docker run -it --rm avanier/hsxkpasswd-alpine
 ```
 
 ## Contributing
