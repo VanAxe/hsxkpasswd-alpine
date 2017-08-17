@@ -1,5 +1,5 @@
 FROM alpine:3.5
-MAINTAINER 'alexis@amonoid.io'
+LABEL maintainer 'alexis@amonoid.io'
 
 RUN set -xev
 
